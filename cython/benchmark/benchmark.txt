@@ -1,0 +1,38 @@
+To compile cython library for the code; from the src-directory run 
+
+$ python setup.py build_ext --inplace
+
+After the library has compiled, executing
+
+$ python routine.py 
+
+should output
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+Pruning list...
+Zeros found:
+[[-1.73024123e-01 -3.80120239e-03  4.21524048e-07]
+ [-9.39920153e-02 -1.52029171e-01  4.21524048e-07]
+ [ 9.39924787e-02  1.52029033e-01  4.21524048e-07]
+ [ 1.73024586e-01  3.80106430e-03  4.21524048e-07]]
+
+Moreover, the program will attempt to display a plot similar to output.png, located in the benchmark-directory.
