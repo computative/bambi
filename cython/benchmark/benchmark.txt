@@ -8,6 +8,7 @@ $ python routine.py
 
 should output
 
+0
 1
 2
 3
@@ -27,12 +28,13 @@ should output
 17
 18
 19
-20
 Pruning list...
 Zeros found:
-[[-1.73024123e-01 -3.80120239e-03  4.21524048e-07]
- [-9.39920153e-02 -1.52029171e-01  4.21524048e-07]
- [ 9.39924787e-02  1.52029033e-01  4.21524048e-07]
- [ 1.73024586e-01  3.80106430e-03  4.21524048e-07]]
+[[ 2.58026123e-07 -9.25366444e-02 -5.31196594e-07]
+ [-4.01989190e-02 -1.14147590e-01 -5.31196594e-07]
+ [ 4.01975278e-02 -1.14147590e-01 -5.31196594e-07]
+ [ 2.58026123e-07 -5.41638151e-02 -5.31196594e-07]
+ [ 1.74697028e-01 -1.10334875e-02 -5.31196594e-07]
+ [-1.74696512e-01 -1.10334875e-02 -5.31196594e-07]]
 
-Moreover, the program will attempt to display a plot similar to output.png, located in the benchmark-directory.
+Moreover, the program will save a plot (output.png) _in_ the src-directory. You can view what it should look like in the benchmark-directory (benchmark.png).
