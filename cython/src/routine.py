@@ -36,9 +36,8 @@ q = np.array([-1.,-1.,-1.,5.,-1.,-1.])
 Itrs = 20
 
 # The script searches inside a bounding box that you specify. To specify the box, you
-# provide exactly two sets of three coordinates. The first 3 coordinates (x1,y1,z1) specify
-# the lower bound of the box. The last 3 coordinates (x2,y2,z2) are the upper bounds on the 
-# box. In mathematics, this correspond to the cartesian product [x1,x2]x[y1,y2]x[z1,z2].
+# provide exactly two sets of three coordinates. Suppose the you call them (x1,y1,z1)
+# and (x2,y2,z2), then this corresponds to the cartesian product [x1,x2]x[y1,y2]x[z1,z2].
 
 BoundingBox = np.array([[-0.5,-.5,-.5],[0.5,.5,.5]])
 
